@@ -4,10 +4,12 @@ A unified multidimensional analysis of language change in a speaker community
 
 Citation: Hua, X. 2021. BayesVarbrul: A unified multidimensional analysis of language change in a speaker community. BioRxiv.
 
+There are three folders, each containing the following for a case study.
+
 BayesVarbrul.R implements a Bayesian hierarchical model that adapts the concepts in genome-environment association studies to study language evolution in a speaker community.
 instruction.R gives step-by-step instructions to use the method, using the Gurindji Kriol case study in the paper. It also gives the code to generate each figure in the paper.
 
-rawdata.csv and var.csv are the data files for the Gurindji Kriol case study. rawdata.csv gives the social factor and the langauge usage pattern of each speaker. Variants of the same variable i are all named Vi. The second row in the file gives the variant type for each corresponding variant. var.csv gives the name and type of each variable in rawdata.csv.
+rawdata.csv is raw data file that gives the social and linguistic factors and the langauge usage pattern of each speaker. Variants of the same variable i are all named Vi. The second row in the file gives the variant type for each corresponding variant. var.csv gives the name and type of each variable in rawdata.csv.
 
 For corpus data, the data files are in the same format, except that the data is not 0/1, but the number of times a speaker uses a particular variant in the corpus.
 
